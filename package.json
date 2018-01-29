@@ -15,7 +15,9 @@
     "postcss": "^6.0.16",
     "typescript": "^2.6.2"
   },
-  "dependencies": {},
+  "dependencies": {
+    "chalk": "^2.3.0"
+  },
   "name": "upend",
   "version": "0.1.0",
   "description": "turn your world upside down ;)",
