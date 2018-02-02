@@ -4,6 +4,12 @@ const path = require('path')
 const fs = require('fs')
 const chalk = require('chalk')
 
+let $options = {
+	fs: {
+		encoding: 'utf8'
+	},
+}
+
 module.exports = function ({ options, targets }) {
     main()
 
@@ -38,14 +44,14 @@ module.exports = function ({ options, targets }) {
                     name = that[1]
                     destination = target.to(name)
 
-                    content = await _read(source, options.fs)
+                    content = await _read(source, $options.fs)
                     result = await target.build({
                         source,
                         destination,
                         content
                     })
 
-                    await _write(destination, result, options.fs)
+                    await _write(destination, result, $options.fs)
 
                     let a = target.category.padStart(longestCategory).replace(/\S+/g, '')
                     let b = target.name.padEnd(longestName).replace(/\S+/g, '')

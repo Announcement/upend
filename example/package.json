@@ -1,0 +1,22 @@
+{
+  "name": "@upend/example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@upend/plugin-babel": "file:../plugin/babel",
+    "@upend/plugin-lesscss": "file:../plugin/lesscss",
+    "@upend/plugin-postcss": "file:../plugin/postcss",
+    "@upend/plugin-typescript": "file:../plugin/typescript",
+    "prettier": "^1.10.2"
+  },
+  "optionalDependencies": {
+    "autoprefixer": "^7.2.5"
+  }
+}

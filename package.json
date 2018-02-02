@@ -1,43 +1,31 @@
 {
-  "devDependencies": {
-    "@babel/cli": "^7.0.0-beta.38",
-    "@babel/core": "^7.0.0-beta.38",
-    "@babel/preset-env": "^7.0.0-beta.38",
-    "@babel/preset-flow": "^7.0.0-beta.38",
-    "@babel/preset-react": "^7.0.0-beta.38",
-    "@babel/preset-typescript": "^7.0.0-beta.38",
-    "@types/node": "^9.3.0",
-    "autoprefixer": "^7.2.5",
-    "babel-cli": "^6.26.0",
-    "babel-preset-flow": "^6.23.0",
-    "flow-bin": "^0.64.0",
-    "less": "^2.7.3",
-    "postcss": "^6.0.16",
-    "typescript": "^2.6.2"
-  },
-  "dependencies": {
-    "chalk": "^2.3.0"
-  },
   "name": "upend",
-  "version": "0.1.0",
-  "description": "turn your world upside down ;)",
+  "version": "1.0.0",
+  "description": "build script i've been using for a while now privately for various projects.",
   "main": "index.js",
+  "dependencies": {
+    "autoprefixer": "^7.2.5",
+    "chalk": "^2.3.0",
+    "directory": "file:../directory"
+  },
+  "devDependencies": {},
   "scripts": {
-    "test": "mocha"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Announcement/upend.git"
   },
-  "keywords": [
-    "js",
-    "build",
-    "tool"
-  ],
-  "author": "Jacob Francis Powers <xxv9xx@gmail.com>",
-  "license": "Apache-2.0",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
   "bugs": {
     "url": "https://github.com/Announcement/upend/issues"
   },
-  "homepage": "https://github.com/Announcement/upend#readme"
+  "homepage": "https://github.com/Announcement/upend#readme",
+  "directories": {
+    "doc": "documentation",
+    "example": "example",
+    "test": "test"
+  }
 }

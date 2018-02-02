@@ -1,0 +1,24 @@
+{
+  "name": "@upend/plugin-lesscss",
+  "version": "1.0.0",
+  "main": "upend-lesscss.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "less": "^2.7.3"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.0.0"
+  },
+	"directories": {
+		"doc": "documentation",
+		"example": "example",
+		"test": "test"
+	}
+}
